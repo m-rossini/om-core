@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aggregation-config id="aggregation-test">
+
+  <!-- Fact definition -->
+	<fact name="invoiceFact" class-name="br.com.auster.om.dynamic.InvoiceFact">
+	
+	  <!-- SOURCE ANCHOR DATA -->
+	  <source name="invoice">
+	     account.invoices.values()
+	  </source>
+	  
+	  <!-- FACT Attributes -->
+	  <attribute name="dueDate" type="java.util.Date">
+	     invoice.dueDate
+	  </attribute>
+	  <attribute name="totalAmount" type="double">
+	     invoice.totalAmount
+	  </attribute>
+	  <attribute name="stateTaxAmount" type="double">
+	     total = 0.0
+	     invoice.receipts.each() { receipt ->
+	       receipt.taxes.each() { tax ->
+	         total += tax.taxAmount
+	       }
+	     }
+	     return total
+	  </attribute>
+	  <attribute name="currentPeriodAmount" type="double">
+	    invoice.currentPeriodAmount
+	  </attribute>
+	  
+	  <!-- Dimension definition -->
+	  <dimension name="timeDimension" class-name="br.com.auster.om.dynamic.TimeDimension">
+	    <attribute name="cycleCode" type="java.lang.String">
+	      invoice.cycleCode
+	    </attribute>
+	    <attribute name="cycleEndDate" type="java.util.Date">
+	      invoice.cycleEndDate
+	    </attribute>
+	  </dimension>
+	  
+	  <!-- Dimension Definition -->
+	  <dimension name="accountDimension" class-name="br.com.auster.om.dynamic.AccountDimension">
+	    <attribute name="accountNumber" type="java.lang.String">
+	      invoice.account.accountNumber
+	    </attribute>
+	    <attribute name="accountName" type="java.lang.String">
+	      invoice.account.accountName
+	    </attribute>
+	  </dimension>
+	  
+	</fact>
+	
+</aggregation-config>

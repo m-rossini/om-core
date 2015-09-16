@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Account AccountName="CARIBOR TECNOLOGIA DA BORRACHA LTDA" AccountNumber="0100729400" AccountState="SC" Id="0" >
+    <Address AddressType="Residencial" AdressStreet="Rua XYZ" AddressNumber="999" AddressComplement="Apto 88" City="S?o Paulo" State="SP" Country="Brasil" PostalCode="04120" PostalCodeCompl="050"/>
+    <Address AddressType="Comercial" AdressStreet="Avenida ABC" AddressNumber="654" AddressComplement="Conj 11" City="S?o Paulo" State="SP" Country="Brasil" PostalCode="04222" PostalCodeCompl="000"/>
+    <Identity IdentityType="CPF" IdentityNumber="00000000001" />
+    <Identity IdentityType="RG" IdentityNumber="337099999" IdentityAttrib1="SSP" IdentityAttrib2="SP"/>
+    <Invoice DueDate="18/12/2005 00:00:00" TotalAmount="116.98" AdjustmentsAmount="0.0" CfopCode="5.307" ContractBreakAmount="0.0" CurrentMonthlyInstmt="0" MonthlyInstmtAmount="0.0" DisputeCredits="0.0" EqpInstmtAmount="0.0" InterestsAmount="0.0" InterestsReturnAmount="0.0" IssueDate="23/11/2005 00:00:00" PaymentsAmount="0.0" PenaltiesAmount="0.0" PenaltiesReturnAmount="0.0" PreviousBalance="236.18" CycleEndDate="22/11/2005 00:00:00" CycleStartDate="23/10/2005 00:00:00" RetentionAmount="0.0" CurrentPeriodAmount="116.98" TotalMonthlyInstmts="0" CycleCode="56" PastDueBalanceAmount="236.18" StateTaxAmount="29.24" ChargesAmount="116.98" Id="0" ElementType="CYCLE_SUMMARY" Tag="010D" >
+        <Section Caption="Vivo Emp Equipe" TotalAmount="0.0" Usage="false" SectionName="Compartilhamento de Franquia" Id="0" ElementType="COMPARTILHAMENTO_FRANQUIA_TOTAL" Tag="270B" >
+            <FreeUnitsDetail UsedUnits="00h00m00s" EndDate="22/11/2005 00:00:00" StartDate="23/10/2005 00:00:00" AccessNumber="4791070299" ServiceName="Vivo Emp Equipe" ReceivedRolloverUnits="00h00m00s" TotalIncludedUnits="03h20m00s" TotalUsedUnits="00h06m18s" RemainingUnits="03h13m00s" MaxRolloverUnits="00h00m00s" RolledOverUnits="00h00m00s" AllocationKey="150002" AllocationType="A" Caption="Vivo Emp Equipe" TotalAmount="0.0" SeqNbr="1" Usage="false" Id="0" ElementType="COMPARTILHAMENTO_FRANQUIA_DETAIL" Tag="270D" />
+            <FreeUnitsDetail UsedUnits="00h00m00s" EndDate="22/11/2005 00:00:00" StartDate="23/10/2005 00:00:00" AccessNumber="4791070905" ServiceName="Vivo Emp Equipe" ReceivedRolloverUnits="00h00m00s" TotalIncludedUnits="03h20m00s" TotalUsedUnits="00h06m18s" RemainingUnits="03h13m00s" MaxRolloverUnits="00h00m00s" RolledOverUnits="00h00m00s" AllocationKey="150002" AllocationType="A" Caption="Vivo Emp Equipe" TotalAmount="0.0" SeqNbr="1" Usage="false" Id="0" ElementType="COMPARTILHAMENTO_FRANQUIA_DETAIL" Tag="270D" />
+            <FreeUnitsDetail UsedUnits="00h06m18s" EndDate="22/11/2005 00:00:00" StartDate="23/10/2005 00:00:00" AccessNumber="4791099080" ServiceName="Vivo Emp Equipe" ReceivedRolloverUnits="00h00m00s" TotalIncludedUnits="03h20m00s" TotalUsedUnits="00h06m18s" RemainingUnits="03h13m00s" MaxRolloverUnits="00h00m00s" RolledOverUnits="00h00m00s" AllocationKey="150002" AllocationType="A" Caption="Vivo Emp Equipe" TotalAmount="0.0" SeqNbr="1" Usage="false" Id="0" ElementType="COMPARTILHAMENTO_FRANQUIA_DETAIL" Tag="270D" />
+        </Section>
+        <Section Caption="Assinante: CARIBOR TECNOLOGIA DA BORRACHA LTDA" TotalAmount="0.0" Usage="false" AccessNbr="4791070299" SectionName="Assinante" Id="0" ElementType="SUBSCRIPTION_INFO" Tag="300D" >
+            <Section Caption="Assinatura" TotalAmount="0.0" Usage="false" AccessNbr="4791070299" SectionName="Assinatura" Id="0" ElementType="SUBSCRIPTION_SRV_CHARGE_TOTAL" Tag="320T" >
+                <ServiceDetail EndDate="22/11/2005 23:59:59" ProRate="false" StartDate="23/10/2005 00:00:00" Caption="ASSINATURA MENSAL - VIVO EMP EQUIPE" TotalAmount="0.0" SeqNbr="1" Usage="false" Id="0" ElementType="SUBSCRIPTION_SRV_CHARGE_DETAIL" Tag="320D" />
+            </Section>
+            <Section Caption="Servi?os Adicionais e Facilidades" TotalAmount="0.0" Usage="false" AccessNbr="4791070299" SectionName="Servi?os Adicionais e Facilidades" Id="0" ElementType="ADDITIONAL_SERVICES_TOTAL" Tag="330T" >
+                <ServiceDetail EndDate="22/11/2005 23:59:59" ProRate="false" StartDate="23/10/2005 00:00:00" Caption="CONTA DETALHADA MENSAL" TotalAmount="0.0" SeqNbr="2" Usage="false" Id="0" ElementType="ADDITIONAL_SERVICES_DETAIL" Tag="330D" />
+            </Section>
+        </Section>
+        <Section Caption="Assinante: MARLI MARIA SCHNEIDER" TotalAmount="112.0" Usage="false" AccessNbr="4791070905" SectionName="Assinante" Id="0" ElementType="SUBSCRIPTION_INFO" Tag="300D" >
+            <Section Caption="Assinatura" TotalAmount="112.0" Usage="false" AccessNbr="4791070905" SectionName="Assinatura" Id="0" ElementType="SUBSCRIPTION_SRV_CHARGE_TOTAL" Tag="320T" >
+                <ServiceDetail EndDate="22/11/2005 23:59:59" ProRate="false" StartDate="23/10/2005 00:00:00" Caption="ASSINATURA MENSAL - VIVO EMP EQUIPE 200" TotalAmount="112.0" SeqNbr="1" Usage="false" Id="0" ElementType="SUBSCRIPTION_SRV_CHARGE_DETAIL" Tag="320D" />
+            </Section>
+            <Section Caption="Servi?os Adicionais e Facilidades" TotalAmount="0.0" Usage="false" AccessNbr="4791070905" SectionName="Servi?os Adicionais e Facilidades" Id="0" ElementType="ADDITIONAL_SERVICES_TOTAL" Tag="330T" >
+                <ServiceDetail EndDate="22/11/2005 23:59:59" ProRate="false" StartDate="23/10/2005 00:00:00" Caption="CONTA DETALHADA MENSAL" TotalAmount="0.0" SeqNbr="2" Usage="false" Id="0" ElementType="ADDITIONAL_SERVICES_DETAIL" Tag="330D" />
+                <ServiceDetail EndDate="22/11/2005 23:59:59" ProRate="false" StartDate="23/10/2005 00:00:00" Caption="CONTA DETALHADA MENSAL" TotalAmount="0.0" SeqNbr="3" Usage="false" Id="0" ElementType="ADDITIONAL_SERVICES_DETAIL" Tag="330D" />
+            </Section>
+        </Section>
+        <Section Caption="Assinante: CARIBOR TECNOLOGIA DA BORRACHA LTDA" TotalAmount="4.98" Usage="false" AccessNbr="4791099080" SectionName="Assinante" Id="0" ElementType="SUBSCRIPTION_INFO" Tag="300D" >
+            <Section Caption="Assinatura" TotalAmount="0.0" Usage="false" AccessNbr="4791099080" SectionName="Assinatura" Id="0" ElementType="SUBSCRIPTION_SRV_CHARGE_TOTAL" Tag="320T" >
+                <ServiceDetail EndDate="22/11/2005 23:59:59" ProRate="false" StartDate="23/10/2005 00:00:00" Caption="ASSINATURA MENSAL - VIVO EMP EQUIPE" TotalAmount="0.0" SeqNbr="1" Usage="false" Id="0" ElementType="SUBSCRIPTION_SRV_CHARGE_DETAIL" Tag="320D" />
+            </Section>
+            <Section Caption="Servi?os Adicionais e Facilidades" TotalAmount="0.0" Usage="false" AccessNbr="4791099080" SectionName="Servi?os Adicionais e Facilidades" Id="0" ElementType="ADDITIONAL_SERVICES_TOTAL" Tag="330T" >
+                <ServiceDetail EndDate="22/11/2005 23:59:59" ProRate="false" StartDate="23/10/2005 00:00:00" Caption="CONTA DETALHADA MENSAL" TotalAmount="0.0" SeqNbr="2" Usage="false" Id="0" ElementType="ADDITIONAL_SERVICES_DETAIL" Tag="330D" />
+            </Section>
+            <Section CarrierCode="00" CarrierState="SC" Caption="Eventos de Uso" TotalAmount="0.0" Usage="true" AccessNbr="4791099080" SectionName="Eventos de Uso" Id="0" ElementType="OPERATOR_CALL" Tag="399D" >
+                <Section CarrierCode="00" CarrierState="SC" Caption="ChamadasLocais" TotalAmount="0.0" Usage="true" AccessNbr="4791099080" SectionName="Chamadas Locais" Id="0" ElementType="SUMMARY_SECTION" Tag="000T" >
+                    <UsageSummaryDetail GroupId="VIVO EMP EQUIPE" BilledUnits="00h00m00s" IncludedUnits="00h06m18s" RolloverForwarded="00h00m00s" RolloverReceived="00h00m00s" UnitType="MINUTES" UsedUnits="00h06m18s" CarrierCode="00" CarrierState="SC" TotalAmount="0.0" SeqNbr="0" Usage="false" Id="0" ElementType="CALLS_SUMMARY" Tag="500T" />
+                </Section>
+                <Section Caption="Para Vivo" TotalAmount="0.0" Usage="false" AccessNbr="4791099080" BilledUnits="00h00m00s" IncludedUnits="00h02m42s" SectionName="Chamadas Locais" UnitType="MINUTES" UsedUnits="00h02m42s" Id="0" ElementType="LOCAL_CALLS_TOTAL" Tag="510T" >
+                    <VoiceUsageDetail ChannelId="4791099080" Datetime="02/11/2005 13:04:35" CalledNumber="4791279071" SvcId="392021" ObjectType="C" Duration="00h01m30s" Tariff="O" CallDirection="1" CallIndicator="1" DestinationCity="BLUMENAU" DestinationState="SC" OriginCity="S?O FRANCISCO" OriginSID="045" OriginState="SC" SvcPlan="VIVO EMP EQUIPE" GroupId="Para Vivo" CallClass="FRANQUIA" CallSubclass="VC1" TariffClass="U" PartNumber="1" EndDatetime="02/11/2005 13:06:05" CarrierCode="00" CarrierState="SC" Caption="GRATIS" TotalAmount="0.0" SeqNbr="0" Usage="true" Id="0" ElementType="LOCAL_CALLS_DETAIL" Tag="510D" >
+                    </VoiceUsageDetail>
+                    <VoiceUsageDetail ChannelId="4791099080" Datetime="02/11/2005 13:09:16" CalledNumber="4791279071" SvcId="392021" ObjectType="C" Duration="00h01m12s" Tariff="O" CallDirection="1" CallIndicator="1" DestinationCity="BLUMENAU" DestinationState="SC" OriginCity="S?O FRANCISCO" OriginSID="045" OriginState="SC" SvcPlan="VIVO EMP EQUIPE" GroupId="Para Vivo" CallClass="FRANQUIA" CallSubclass="VC1" TariffClass="U" PartNumber="1" EndDatetime="02/11/2005 13:10:28" CarrierCode="00" CarrierState="SC" Caption="GRATIS" TotalAmount="0.0" SeqNbr="0" Usage="true" Id="0" ElementType="LOCAL_CALLS_DETAIL" Tag="510D" >
+                    </VoiceUsageDetail>
+                </Section>
+                <Section Caption="Para Outros Celulares" TotalAmount="0.0" Usage="false" AccessNbr="4791099080" BilledUnits="00h00m00s" IncludedUnits="00h00m30s" SectionName="Chamadas Locais" UnitType="MINUTES" UsedUnits="00h00m30s" Id="0" ElementType="LOCAL_CALLS_TOTAL" Tag="510T" >
+                    <VoiceUsageDetail ChannelId="4791099080" Datetime="02/11/2005 22:54:18" CalledNumber="4799262803" SvcId="392021" ObjectType="C" Duration="00h00m30s" Tariff="O" CallDirection="1" CallIndicator="1" DestinationCity="BLUMENAU" DestinationState="SC" OriginCity="JOINVILLE" OriginSID="045" OriginState="SC" SvcPlan="VIVO EMP EQUIPE" GroupId="Para Outros Celulare" CallClass="FRANQUIA" CallSubclass="VC1" TariffClass="U" PartNumber="1" EndDatetime="02/11/2005 22:54:48" CarrierCode="00" CarrierState="SC" Caption="GRATIS" TotalAmount="0.0" SeqNbr="0" Usage="true" Id="0" ElementType="LOCAL_CALLS_DETAIL" Tag="510D" >
+                    </VoiceUsageDetail>
+                </Section>
+                <Section Caption="Servi?os" TotalAmount="0.0" Usage="false" AccessNbr="4791099080" BilledUnits="00h00m00s" IncludedUnits="00h03m06s" SectionName="Chamadas Locais" UnitType="MINUTES" UsedUnits="00h03m06s" Id="0" ElementType="LOCAL_CALLS_TOTAL" Tag="510T" >
+                    <VoiceUsageDetail ChannelId="4791099080" Datetime="05/11/2005 03:30:48" CalledNumber="*555" SvcId="392021" ObjectType="C" Duration="00h03m06s" Tariff="O" CallDirection="1" CallIndicator="1" DestinationCity="CAIXA POSTAL" DestinationState="SC" OriginCity="JOINVILLE" OriginSID="045" OriginState="SC" SvcPlan="VIVO EMP EQUIPE" GroupId="Servi?os" CallClass="FRANQUIA" CallSubclass="*555" TariffClass="U" PartNumber="1" EndDatetime="05/11/2005 03:33:54" CarrierCode="00" CarrierState="SC" Caption="GRATIS" TotalAmount="0.0" SeqNbr="0" Usage="true" Id="0" ElementType="LOCAL_CALLS_DETAIL" Tag="510D" >
+                    </VoiceUsageDetail>
+                </Section>
+                <Section Caption="TELESP CELULAR" TotalAmount="1.47" Usage="false" AccessNbr="4791099080" BilledUnits="00h00m00s" IncludedUnits="00h00m00s" SectionName="Chamadas Originadas em Roaming" UnitType="MINUTES" UsedUnits="00h00m30s" Id="0" ElementType="ROAM_MOC_TOTAL" Tag="580T" >
+                    <VoiceUsageDetail ChannelId="4791099080" Datetime="20/10/2005 19:45:47" CalledNumber="47_4332371" SvcId="410131" ObjectType="C" Duration="00h00m30s" Tariff="P" CallDirection="0" DestinationCity="JOINVILLE" DestinationState="SC" OriginCity="CAMPINAS" OriginSID="010" OriginState="SP" SvcPlan="AD-OUTRA OP" GroupId="010" CallClass="ADICIONAL" CallSubclass="U" TariffClass="P" PartNumber="1" EndDatetime="20/10/2005 19:46:17" CarrierCode="00" CarrierState="SC" Caption="ADICIONAL" TotalAmount="1.47" SeqNbr="0" Usage="true" Id="0" ElementType="ROAM_MOC_DETAIL" Tag="580D" >
+                    </VoiceUsageDetail>
+                </Section>
+                <Section Caption="TORP OUTRA OPERADORA" TotalAmount="0.74" Usage="false" AccessNbr="4791099080" SectionName="Short Message" UnitType="EVENT" Id="0" ElementType="SMS_TOTAL" Tag="650T" >
+                    <EventUsageDetail ChannelId="4791099080" Datetime="02/11/2005 19:59:28" CalledNumber="4799262803" SvcId="1156570" ObjectType="C" Duration="1 unidade(s)" Tariff="U" CallDirection="0" DestinationCity="BLUMENAU" DestinationState="SC" SvcPlan="SMS OUTRAS OPERAD" GroupId="SMS OUTRAS OPERAD" CallClass="TORPEDO" CallSubclass="OUTROS" TariffClass="U" PartNumber="1" CarrierCode="00" CarrierState="SC" Caption="TORPEDO OUTRA OPERAD" TotalAmount="0.37" SeqNbr="0" Usage="true" Id="0" ElementType="SMS_DETAIL" Tag="650D" >
+                    </EventUsageDetail>
+                    <EventUsageDetail ChannelId="4791099080" Datetime="02/11/2005 21:39:30" CalledNumber="4799262803" SvcId="1156570" ObjectType="C" Duration="1 unidade(s)" Tariff="U" CallDirection="0" DestinationCity="BLUMENAU" DestinationState="SC" SvcPlan="SMS OUTRAS OPERAD" GroupId="SMS OUTRAS OPERAD" CallClass="TORPEDO" CallSubclass="OUTROS" TariffClass="U" PartNumber="1" CarrierCode="00" CarrierState="SC" Caption="TORPEDO OUTRA OPERAD" TotalAmount="0.37" SeqNbr="0" Usage="true" Id="0" ElementType="SMS_DETAIL" Tag="650D" >
+                    </EventUsageDetail>
+                </Section>
+            </Section>
+            <Section CarrierCode="21" CarrierState="SC" Caption="Eventos de Uso" TotalAmount="0.0" Usage="true" AccessNbr="4791099080" SectionName="Eventos de Uso" Id="0" ElementType="OPERATOR_CALL" Tag="399D" >
+                <Section Caption="SMP" TotalAmount="2.77" Usage="false" AccessNbr="4791099080" BilledUnits="00h00m00s" IncludedUnits="00h00m00s" SectionName="Chamadas Originadas em Roaming" UnitType="MINUTES" UsedUnits="00h00m30s" Id="0" ElementType="ROAM_MOC_TOTAL" Tag="580T" >
+                    <VoiceUsageDetail ChannelId="4791099080" Datetime="20/10/2005 19:45:45" CalledNumber="47_4332371" SvcId="323921" ObjectType="C" Duration="00h01m48s" Tariff="P" CallDirection="0" DestinationCity="AREA 47" DestinationState="SC" OriginCity="AREA 19" OriginSID="999" OriginState="SP" SvcPlan="LD CSP 21 AR INCOL" GroupId="999" CallClass="VC3R" CallSubclass="MF" TariffClass="P" PartNumber="1" EndDatetime="20/10/2005 19:47:33" CarrierCode="21" CarrierState="SC" Caption="INTERESTADUAL" TotalAmount="2.77" SeqNbr="0" Usage="true" Id="0" ElementType="ROAM_MOC_DETAIL" Tag="580D" >
+                    </VoiceUsageDetail>
+                </Section>
+            </Section>
+        </Section>
+        <Receipt CarrierCode="00" CarrierState="SC" TotalAmount="142.76" ReceiptNbr="1" ReceiptClass="C" CarrierName="VIVO" Id="0" ElementType="LD_GENERAL_INFO" Tag="202Z" >
+            <ReceiptDetail Caption="Assinatura" TotalAmount="112.0" UnitType="UNIT" SequenceNbr="1" FiscalCode="1010" UnitCount="3.0" Id="0" ElementType="SUMMARY_ACCUMULATION_TAXES" Tag="202Y" >
+                <ChargedTax TaxRate="25.0" TaxAmount="28.0" NonTaxableAmount="0.0" TaxableAmount="112.0" TaxName="ICMS" Id="0" ElementType="SUMMARY_ACCUMULATION_TAXES" Tag="202Y" />
+            </ReceiptDetail>
+            <ReceiptDetail Caption="Chamadas Originadas em Roaming" TotalAmount="1.47" UnitType="TIME" SequenceNbr="2" FiscalCode="1170" UnitCount="0.0" Id="0" ElementType="SUMMARY_ACCUMULATION_TAXES" Tag="202Y" >
+                <ChargedTax TaxRate="25.0" TaxAmount="0.3675" NonTaxableAmount="0.0" TaxableAmount="1.47" TaxName="ICMS" Id="0" ElementType="SUMMARY_ACCUMULATION_TAXES" Tag="202Y" />
+            </ReceiptDetail>
+            <ReceiptDetail Caption="Short Message" TotalAmount="0.74" UnitType="UNIT" SequenceNbr="3" FiscalCode="1250" UnitCount="2.0" Id="0" ElementType="SUMMARY_ACCUMULATION_TAXES" Tag="202Y" >
+                <ChargedTax TaxRate="25.0" TaxAmount="0.185" NonTaxableAmount="0.0" TaxableAmount="0.74" TaxName="ICMS" Id="0" ElementType="SUMMARY_ACCUMULATION_TAXES" Tag="202Y" />
+            </ReceiptDetail>
+            <ChargedTax TaxRate="1.0" TaxAmount="0.81" NonTaxableAmount="0.0" TaxableAmount="114.21" TaxName="FUST" Id="0" ElementType="TOTAL_TAX" Tag="202X" />
+            <ChargedTax TaxRate="0.5" TaxAmount="0.4" NonTaxableAmount="0.0" TaxableAmount="114.21" TaxName="FUNTTEL" Id="0" ElementType="TOTAL_TAX" Tag="202X" />
+            <ChargedTax TaxRate="25.0" TaxAmount="28.55" NonTaxableAmount="0.0" TaxableAmount="114.21" TaxName="ICMS" Id="0" ElementType="ICMS_SUMMARY" Tag="202V" />
+        </Receipt>
+        <Receipt CarrierCode="21" CarrierState="SC" TotalAmount="3.46" ReceiptNbr="1" ReceiptClass="A" ReceiptSubclass="6" CarrierName="EMBRATEL" Id="0" ElementType="LD_GENERAL_INFO" Tag="202Z" >
+            <ReceiptDetail Caption="Chamadas Originadas em Roaming" TotalAmount="2.77" UnitType="TIME" SequenceNbr="1" FiscalCode="1170" UnitCount="108.0" Id="0" ElementType="SUMMARY_ACCUMULATION_TAXES" Tag="202Y" >
+                <ChargedTax TaxRate="25.0" TaxAmount="0.6925" NonTaxableAmount="0.0" TaxableAmount="2.77" TaxName="ICMS" Id="0" ElementType="SUMMARY_ACCUMULATION_TAXES" Tag="202Y" />
+            </ReceiptDetail>
+            <ChargedTax TaxRate="1.0" TaxAmount="0.01" NonTaxableAmount="0.0" TaxableAmount="2.77" TaxName="FUST" Id="0" ElementType="TOTAL_TAX" Tag="202X" />
+            <ChargedTax TaxRate="0.5" TaxAmount="0.0" NonTaxableAmount="0.0" TaxableAmount="2.77" TaxName="FUNTTEL" Id="0" ElementType="TOTAL_TAX" Tag="202X" />
+            <ChargedTax TaxRate="25.0" TaxAmount="0.69" NonTaxableAmount="0.0" TaxableAmount="2.77" TaxName="ICMS" Id="0" ElementType="ICMS_SUMMARY" Tag="202V" />
+        </Receipt>
+        <BarCode OCRLeftLine="846700000017169800690011101007294008110570512183" OCRRightLine="846700000017169800690011101007294008110570512183" AlphaNumericBarCode="wnNwNnwwNNnnWWnnnWWnnnWWnWnnnWnWwNnwnNWnnNWwnnwNWnNnwwNwnNNwwnNNwnnwWNnWnNwnnWNwNnwwNwnNNwwnwNNNnWwnwNnnWWnnNw" Id="0" ElementType="BARCODE_LINE" Tag="020D" />
+    </Invoice>
+</Account>

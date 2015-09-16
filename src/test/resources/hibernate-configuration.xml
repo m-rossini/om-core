@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+        
+<hibernate-configuration>
+    <session-factory>
+		<!--
+			************************ 		DB Connectivity 		************************
+			
+			Defines the database used to persist the mapped classes. This can be a direct 
+				access or using some managed pool.
+		--> 			
+        <property name="show_sql">false</property>
+        <property name="use_outer_join">true</property>
+     		<property name="hbm2ddl.auto">create</property>
+
+        <property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+        <property name="connection.url">jdbc:oracle:thin:@mccoy:1521:TEST01</property>
+        <property name="connection.username">test</property>
+        <property name="connection.password">test</property>
+
+        <property name="dialect">org.hibernate.dialect.Oracle9Dialect</property>
+
+
+		<!-- 
+			************************ 		Mapping Files			************************
+			
+			Files generated automatically, using  XDoclet notation, when JAR is created. If any other
+				class mpaaing, outside the OM-related JAR, must be loaded this file has to be 
+				customized for that project.
+		-->											  
+			<!-- OM-Invoice -->		
+	    <mapping resource="br/com/auster/om/invoice/Account.hbm.xml"/>
+	    <mapping resource="br/com/auster/om/invoice/Address.hbm.xml"/>
+	    <mapping resource="br/com/auster/om/invoice/BarCode.hbm.xml"/>
+	    <mapping resource="br/com/auster/om/invoice/ChargedTax.hbm.xml"/>
+	    <mapping resource="br/com/auster/om/invoice/FreeUnitsDetail.hbm.xml"/>
+	    <mapping resource="br/com/auster/om/invoice/Identity.hbm.xml"/>
+	    <mapping resource="br/com/auster/om/invoice/InstallmentDetail.hbm.xml"/>
+	    <mapping resource="br/com/auster/om/invoice/Invoice.hbm.xml"/>
+	    <mapping resource="br/com/auster/om/invoice/OneTimeEventDetail.hbm.xml"/>
+	    <mapping resource="br/com/auster/om/invoice/Receipt.hbm.xml"/>
+	    <mapping resource="br/com/auster/om/invoice/ReceiptDetail.hbm.xml"/>
+	    <mapping resource="br/com/auster/om/invoice/RedebitDetail.hbm.xml"/>
+	    <mapping resource="br/com/auster/om/invoice/Section.hbm.xml"/>
+	    <mapping resource="br/com/auster/om/invoice/SectionDetail.hbm.xml"/>
+	    <mapping resource="br/com/auster/om/invoice/ServiceDetail.hbm.xml"/>
+	    <mapping resource="br/com/auster/om/invoice/ServiceProvider.hbm.xml"/>
+	    <mapping resource="br/com/auster/om/invoice/UsageDetail.hbm.xml"/>
+	    <mapping resource="br/com/auster/om/invoice/UsageSummaryDetail.hbm.xml"/>
+	    
+    </session-factory>
+
+</hibernate-configuration>
